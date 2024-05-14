@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="E-COMMERCE1.CSS">
+    <style>
+        /* Additional CSS styles for enhancing design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #f1c40f; /* Change color on hover */
+        }
+        #hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .button {
+            background-color: #f1c40f;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e67e22; /* Darker color on hover */
+        }
+        #products {
+            padding: 50px 0;
+            text-align: center;
+        }
+        #products ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #products ul li {
+            margin: 20px;
+            max-width: 300px;
+        }
+        #products ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        #products ul li img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        #products ul li h3 {
+            margin-top: 10px;
+        }
+        #products ul li p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" title="Go to the home page">Home</a></li>
+                <li><a href="#" title="Explore our range of products">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to Our <em><i>EAGLE</i></em> E-Commerce Website!</h1>
+            <p>Find the best products for your needs.</p>
+            <a href="main.html" class="button">Shop Now</a>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://img.freepik.com/premium-vector/smf-modern-logo-design_745595-728.jpg?w=360" alt="clothing's">
+                        <h3>Product 1</h3>
+			<p>smf branded desigener collactions</p>
+                        <p>starting from $200</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://t4.ftcdn.net/jpg/06/20/05/97/360_F_620059706_Fcj7l6VJCFJjLyGJl56tgWXo5O1UsX5l.jpg" alt="axisaris">
+                        <h3>Product 2</h3>
+			<p>smf branded mobile and lap axisasiris collactions</p>
+                        <p>starting from 200</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://dypdvfcjkqkg2.cloudfront.net/large/728866-8471.png" alt="home needs">
+                        <h3>Product 3</h3>
+			<p> smf groups of home needs</p> 
+                        <p>starts from $149.99</p>
+                    </a>
+                </li>
+                <!-- Add more product items as needed -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

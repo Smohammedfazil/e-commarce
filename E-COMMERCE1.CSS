@@ -1,0 +1,120 @@
+/* E-COMMERCE.CSS */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #DC143C;
+    padding: 50px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Products Section */
+#products {
+    margin-top: 50px;
+}
+
+#products h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#products ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#products ul li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    vertical-align: top;
+}
+
+#products ul li:last-child {
+    margin-right: 0;
+}
+
+#products ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+#products ul li a:hover {
+    text-decoration: underline;
+}
+
+#products ul li img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#products ul li h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+#products ul li p {
+    font-size: 1.2em;
+    margin: 0;
+}
